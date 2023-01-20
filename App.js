@@ -23,4 +23,7 @@ function calculateTip()
     var tip=(bill*tipPercentage)/persons;
     tip=tip.toFixed(2);
     document.getElementById("total").innerHTML=tip;
+    // var tipRe=((tip)/(bill)*100)
+    // tipRe=tipRe.toFixed(2);
+    // document.getElementById("total").innerHTML=tipRe;
 }
